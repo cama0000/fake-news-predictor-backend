@@ -80,7 +80,6 @@ def web_scrape(url):
 
         full_article = headline_text + ' ' + article_text
 
-        print(full_article)
         return full_article
     else:
         print(f"Failed to retrieve the page. Status code: {response.status_code}")
