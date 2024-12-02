@@ -1,0 +1,9 @@
+# Ignore common unnecessary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore Git-related files
+.git/
+.gitignore
